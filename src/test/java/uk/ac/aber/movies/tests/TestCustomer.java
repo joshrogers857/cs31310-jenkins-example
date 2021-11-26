@@ -33,7 +33,7 @@ public class TestCustomer {
 	
 	@Test 
 	public void shouldBeInitialisedWithSpecifiedName() { 
-		assertEquals("Samuel Jones", customer.getName(), "Incorrect Name");
+		assertEquals("Sam Jones", customer.getName(), "Incorrect Name");
 	}	
 	
 	@Test
