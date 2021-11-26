@@ -137,5 +137,9 @@ public class TestCustomer {
 				  "<p>Amount owed: 0.0</p><p>You earned 0 bonus points</p>";
 				assertEquals(statement, customer.getHtmlStatement(), "Incorrect statement");
 	}
-	
+
+	@Test
+	public void shouldGiveCorrectFamilyName() {
+		assertEquals("Jones", customer.getFamilyName());
+	}
 }
